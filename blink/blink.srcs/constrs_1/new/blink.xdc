@@ -1,4 +1,4 @@
-set_property PACKAGE_PIN B6 [get_ports clk_100MHz]
+#set_property PACKAGE_PIN B6 [get_ports clk_100MHz]
 
 set_property PACKAGE_PIN V14 [get_ports {leds[2]}]
 set_property PACKAGE_PIN V13 [get_ports {leds[1]}]

@@ -24,14 +24,17 @@
 
 module blink(
     input wire clk_100MHz,
-    output reg [2:0] leds
+    output wire [2:0] leds
     );
     
     wire clk_1Hz;
     divider #(100_000_000) div(clk_100MHz, clk_1Hz);
     
+    reg [2:0] data = 3'd0;
     always @(posedge clk_1Hz)
     begin
-        leds <= ~leds;
+        data <= ~data;
     end
+    
+    assign leds = data;
 endmodule
