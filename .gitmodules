@@ -1,0 +1,8 @@
+[submodule "picoevb"]
+	path = picoevb
+	url = https://github.com/RHSResearchLLC/PicoEVB.git
+	branch = master
+[submodule "picorv32"]
+	path = picorv32
+	url = https://github.com/cliffordwolf/picorv32.git
+	branch = master
