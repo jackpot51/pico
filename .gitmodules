@@ -6,3 +6,7 @@
 	path = picorv32
 	url = https://github.com/cliffordwolf/picorv32.git
 	branch = master
+[submodule "xvcd"]
+	path = xvcd
+	url = https://github.com/RHSResearchLLC/xvcd.git
+	branch = master
